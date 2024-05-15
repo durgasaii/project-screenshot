@@ -1,0 +1,191 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main-section{
+    height: 100vh;
+    width: 100vw;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    
+}
+.main-secw{
+    height: 90rem;
+    width: 50vw;
+    background: #000000;
+    position: relative;
+}
+.logo{
+     max-width: 6rem;
+}
+.ottplay{font-size: 2.8rem;
+    color: white;
+   }
+.ott{
+    font-size: 3rem;
+}
+.mazey{
+    font-size: 1.2rem;
+    color: white;
+
+}
+.section-1{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    padding:2rem;
+}
+.section-2{
+    font-size: 1.3rem;
+    text-transform: capitalize;
+    color: #ffffff;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    gap: 0.2rem;
+    padding:2rem;
+    text-align: center;
+}
+.section-3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.tv{
+    /* background: red; */
+ 
+    background-image: url(img/bg.jpeg);
+    background-color: rgb(255, 255, 255, 0.5);
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 0.4rem solid #C0C0C0;
+    height: 25rem;
+    width: 45rem;
+    position: relative;
+/* overflow: hidden; */
+
+    /* z-index: 1; */
+}
+.gridboxs{
+    display: grid;
+    grid-template-columns: 1.8fr 2fr 1fr;
+}
+.nav-box1{
+    color: white;
+    padding: 1rem;
+}
+ .name{
+font-size: 1.2rem;
+ }
+ .summary{
+    font-size: 0.7rem;
+
+ }
+ .cat{
+    font-size: 0.7rem;
+ }
+ .nav-box3{
+    color: white;
+    display: flex;
+    gap: 0.3rem;
+    padding: 1rem 2rem;
+ }
+ .logoo{
+    max-width: 2rem;
+ }
+ .ott{
+font-size: 0.9rem;
+ }
+ .greenbg{
+    font-size: 0.6rem;
+    color: red;
+    padding-left: 0.3rem;
+
+ }
+ .ott-list{
+    height: 4rem;
+    text-decoration: none;
+    overflow: hidden;
+    transition: all 0.2s;
+ }
+ .ott-listt{
+    /* overflow: hidden; */
+    /* flex-grow: 1; */
+    height: 4rem;
+
+ }
+ .gridboxss{
+    position: absolute;
+    bottom: 2.5rem;
+    width: 100%;
+   
+
+ }
+ 
+ .ott-lists{
+    height: 5rem;
+    display: flex;
+     align-items: center;
+    flex-direction: row;
+overflow: hidden;
+    /* text-decoration: none; */
+    list-style: none;
+    
+ }
+ /* .gallery-img img:hover{
+    transform:scale(0.5);} */
+.ott-list:hover{
+    transform:scale(1.1);
+}
+.play-btn{
+    position: absolute;
+    bottom: 10rem;
+    left: 2rem;
+}
+.playybtn{
+    /* background: rgb(255, 255, 255); */
+    background:rgba(255,255,255,0.9) ;
+    height: 4.5rem;
+    border-radius: 50%;
+}
+.addbtnn{
+    background: rgb(255, 255, 255);
+    height: 2rem;
+    border-radius: 50%;
+
+}
+.remote{
+    height: 12rem;
+    position: absolute;
+    right: 18rem;
+    bottom: -9rem;
+    /* transform: skewX(40deg); */
+    transform: rotate(-30deg);
+    z-index: 4;
+
+}
+.stand{
+    width: 43rem;
+position: absolute;
+bottom: -6.4rem;
+left: 0.3rem;
+z-index: 3;
+
+}
+.green{
+    color: white;
+    font-size: 0.65rem;
+    position: absolute;
+    bottom: 8.2rem;
+    left: 1rem;
+
+}
+.color-green{
+    color: rgb(141, 207, 41);
+}
